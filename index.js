@@ -36,11 +36,11 @@ updateWeatherApp = (city) => {
           <div class="card-bottom px-5 py-4 row">
             <div class="col text-center">
               <p>${spitOutCelcius(city.main.feels_like)}&deg;C</p>
-              <span>Feels Like</span>
+              <span>Gefühlt</span>
             </div>
             <div class="col text-center">
               <p>${city.main.humidity}%</p>
-              <span>Humidity</span>
+              <span>Feuchtigkeit</span>
             </div>
           </div>
     `;
